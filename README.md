@@ -1,6 +1,6 @@
 Yii2 Mapbox with Leaflet helper
 =======
-Helper to use Mapbox with Leaflet
+Helper to call javascripts for Mapbox using Leaflet
 
 Usage
 =======
@@ -22,7 +22,7 @@ L.mapbox.accessToken = 'XXXX';
         .map('map', 'XXX.kjkb4j0a')
         .setView([LAT, LON], 13)
         .on('ready', function() {
-            new L.Control.MiniMap(L.mapbox.tileLayer('XXX.kjkb4j0a')) //minimpa plugin use
+            new L.Control.MiniMap(L.mapbox.tileLayer('XXX.kjkb4j0a')) //minimap plugin use
                 .addTo(map);
         });
 
