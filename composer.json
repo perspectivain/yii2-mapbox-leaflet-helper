@@ -1,0 +1,26 @@
+{
+    "name": "perspectivain/yii2-mapbox-leaflet-helper",
+    "description": "Helper to use Mapbox with Leaflet",
+    "keywords": ["yii2", "helper", "mapbox", "leaflet"],
+    "homepage": "https://github.com/perspectivain/yii2-mapbox-leaflet-helper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juliano Baggio di Sopra", "email": "juliano@perspectiva.in"
+        }
+    ],
+    "support": {
+        "email": "juliano@perspectiva.in",
+        "issues": "https://github.com/perspectivain/yii2-mapbox-leaflet-helper/issues",
+        "wiki": "https://github.com/perspectivain/yii2-mapbox-leaflet-helper/wiki",
+        "source": "https://github.com/perspectivain/yii2-mapbox-leaflet-helper"
+    },
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "perspectivain\\mapbox\\": "lib"
+        }
+    }
+}
