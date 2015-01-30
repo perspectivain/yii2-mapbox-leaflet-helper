@@ -39,7 +39,7 @@ The preferred way to install this extension is through composer.
 ```
 {
   "require": {
-    "perspectivain/yii2-mapbox-leaflet-helper": "*"
+    "perspectivain/yii2-mapbox-leaflet-helper": "dev-master"
   }
 }
 ```
