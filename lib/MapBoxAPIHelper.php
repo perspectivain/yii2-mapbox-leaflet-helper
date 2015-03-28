@@ -27,16 +27,21 @@ class MapBoxAPIHelper extends YiiStringHelper
             'js' => ['https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.3/Leaflet.fullscreen.min.js'],
             'css' => ['https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.3/leaflet.fullscreen.css'],
         ],
-        'minimap' =>
-        [
+        'minimap' => [
             'js' => ['https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-minimap/v1.0.0/Control.MiniMap.js'],
             'css' => ['https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.3/leaflet.fullscreen.css'],
         ],
-        'omnivore' =>
-        [
+        'omnivore' => [
             'js' => ['https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'],
             'css' => [],
-        ]
+        ],
+        'markercluster' => [
+            'js' => ['https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'],
+            'css' => [
+                'https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css',
+                'https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css',
+            ],
+        ],
     ];
 
     /**
